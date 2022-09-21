@@ -33,7 +33,7 @@ function getDigit(n) {
 function champernownesConstant(n) {
     let product = 1;
     for (let i=1;i<=n;i*=10) {
-        product *= getDigit(n);
+        product *= getDigit(i);
     }
     return product;
 }

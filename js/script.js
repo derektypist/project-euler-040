@@ -28,3 +28,12 @@ function getDigit(n) {
     const num = 10 ** (digitsPerNum-1) + digitsIntoBlock/digitsPerNum;
     return num.toString()[digitsIntoBlock % digitsPerNum];
 }
+
+// Function to Get Champernowne's Constant
+function champernownesConstant(n) {
+    let product = 1;
+    for (let i=1;i<=n;i*=10) {
+        product *= getDigit(n);
+    }
+    return product;
+}

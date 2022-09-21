@@ -41,3 +41,16 @@ User Stories on function `champernownesConstant(n)` taken from [FreeCodeCamp - C
 **Information Architecture**
 
 The function `champernownesConstant(n)` returns a number, where `n` is a number.
+
+## Features
+
+Allows the user to enter a number as getting the value of the expression.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+

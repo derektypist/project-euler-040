@@ -14,7 +14,19 @@ Information at [Project Euler 040](https://projecteuler.net/problem=40)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 100 and 1000000, without leading zeros such as 0100 and click on the Submit Button.  You will see the value of the expression, unless you have made an invalid input.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 100 or greater than 1000000
+- Including leading zeros (e.g. 0100)
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `champernownesConstant(100)` to return a number.
 
@@ -23,6 +35,8 @@ As a user, I expect the function `champernownesConstant(100)` to return 5.
 As a user, I expect the function `champernownesConstant(1000)` to return 15.
 
 As a user, I expect the function `champernownesConstant(1000000)` to return 210.
+
+User Stories on function `champernownesConstant(n)` taken from [FreeCodeCamp - Coding Interview Prep - Project Euler 040](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-40-champernownes-constant)
 
 **Information Architecture**
 

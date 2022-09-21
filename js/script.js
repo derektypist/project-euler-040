@@ -15,3 +15,16 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+// Function to Get Digit
+function getDigit(n) {
+    let lower = 0, upper = 0, digitsPerNum = 0;
+    while (n>upper) {
+        lower = upper;
+        upper += 9*10**digitsPerNum * ++digitsPerNum;
+    }
+
+    const digitsIntoBlock = n - lower - 1;
+    const num = 10 ** (digitsPerNum-1) + digitsIntoBlock/digitsPerNum;
+    return num.toString()[digitsIntoBlock % digitsPerNum];
+}

@@ -24,5 +24,22 @@
         <p>If d<sub>n</sub> represents the nth digit of the fractional part, find the value of the following expression:</p>
         <p class="text-center">d<sub>1</sub> x d<sub>10</sub> x d<sub>100</sub> x d<sub>1000</sub> x d<sub>10000</sub> x d<sub>100000</sub> x d<sub>1000000</sub></p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 100 and 1000000 (e.g. 100)" title="Enter whole number between 100 and 1000000" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>

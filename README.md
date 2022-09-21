@@ -40,7 +40,7 @@ User Stories on function `champernownesConstant(n)` taken from [FreeCodeCamp - C
 
 **Information Architecture**
 
-The function `champernownesConstant(n)` returns a number, where `n` is a number.
+The function `champernownesConstant(n)` returns a number, where `n` is a number between 100 and 1000000.
 
 ## Features
 
@@ -54,3 +54,17 @@ Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.1 and Google Fonts.
 
 Ensure all user stories have been met.
 
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-040) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
